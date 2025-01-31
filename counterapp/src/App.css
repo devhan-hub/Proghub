@@ -1,0 +1,40 @@
+
+body {
+ width: 100%;
+ height: 100vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ background-color: black;
+
+}
+
+.btn {
+  padding-inline: 10px;
+  padding-block: 8px;
+  color: white;
+  font-size: larger;
+  background: #000;
+  transition: all 0.3s ease;
+
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+.btnContainer {
+  display:flex;
+  gap: 10px;
+  justify-content: center;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.display h3 {
+  font-size:20px;
+}
